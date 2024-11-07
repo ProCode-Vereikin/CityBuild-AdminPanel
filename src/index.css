@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    @apply appearance-none;
+    margin: 0;
+  }
+
+  input[type='number'] {
+    @apply [appearance:textfield];
+  }
+}
+
+
+
+
+
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 20px;
+  color: #0e2442;
+}
+
+.swiper-pagination-bullet {
+  background: #0e2442;
+}
+
+
+
